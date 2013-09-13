@@ -8,7 +8,7 @@ PYTHONSTARTUP=$HOME/.python.py
 export PYTHONSTARTUP
 
 run this the first time:
-readline.write_history_file, history_file
+readline.write_history_file(history_file)
 """
 
 import os
