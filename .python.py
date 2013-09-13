@@ -1,4 +1,15 @@
-# saves python history between sessions
+"""
+saves python history between sessions
+save file in: 
+~/.python.py
+
+update ~/.bash_profile:
+PYTHONSTARTUP=$HOME/.python.py
+export PYTHONSTARTUP
+
+run this the first time:
+readline.write_history_file, history_file
+"""
 
 import os
 import readline
